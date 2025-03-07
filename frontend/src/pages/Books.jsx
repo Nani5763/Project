@@ -33,7 +33,7 @@ const Books = () => {
 
   return (
     <div>
-      <h1>AWS DevOps Future BOOKS </h1>
+      <h1>Pavan sai Bonam Book Store</h1>
       <div className="books">
         {books.map((book) => (
           <div key={book.id} className="book">
