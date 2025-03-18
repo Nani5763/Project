@@ -10,12 +10,6 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
--- Create the database if it doesn't exist
-CREATE DATABASE test;
-
--- Use the test database
-USE test;
-
 -- Table structure for table `books`
 CREATE TABLE `books` (
   `id` int(11) NOT NULL,
